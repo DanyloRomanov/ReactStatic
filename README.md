@@ -1,0 +1,2 @@
+# ReactStatic
+React static pages
