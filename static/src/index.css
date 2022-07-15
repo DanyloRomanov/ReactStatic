@@ -1,13 +1,76 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background-color: #282D35;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #11222A;
+  height: 90px;
+  padding: 30px 25px;
+}
+
+
+
+nav > h3, nav > h4{
+  margin:0;
+}
+
+nav > h3{
+  margin-right: auto;
+  color:#61DAFB ;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+nav > h4{
+  color: #deebf8;
+  font-weight: 600;
+
+}
+
+.nav-react-img{
+  height: 30px;
+  width: 30px;
+  margin-right: 7px;
+}
+
+
+main {
+  padding: 57px 27px;
+  color: white;
+  background-image: url("./images/logo-background.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.main-header {
+  margin:0;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+
+.main-list{
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+.main-list > li {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 19px;
+  font-weight: normal;
+  padding-block: 10px;
+}
+
+.main-list > li::marker{
+  color: #61DAFB;
+  font-size: 1.4rem;
 }
